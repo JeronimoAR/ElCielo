@@ -1,0 +1,185 @@
+:root {
+    --color1: #C26C47;
+    --color2: #81a94c;
+    --secundario: #C48F45;
+    --fonts:  #544D4B;
+}
+
+@font-face {
+    font-family: 'Clarissa';
+    src: url(../fonts/Clarissa.ttf);
+}
+
+@font-face {
+    font-family: 'Champagne-Limousines';
+    src: url(../fonts/Champagne\ &\ Limousines.ttf);
+}
+@font-face {
+    font-family: 'Champagne-Limousines Bold';
+    src: url(../fonts/Champagne\ &\ Limousines\ Bold.ttf);
+}
+@font-face {
+    font-family: 'Champagne-Limousines Italic';
+    src: url(../fonts/Champagne\ &\ Limousines\ Italic.ttf);
+}
+@font-face {
+    font-family: 'Champagne-Limousines Bold Italic';
+    src: url(../fonts/Champagne\ &\ Limousines\ Bold\ Italic.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Champagne-Limousines';
+    color: var(--fonts);
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    padding-top: 70px;
+    z-index: 0;
+}
+
+section {
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    background-color: #000000a1;
+}
+
+button i{
+    color: white;
+}
+
+.img-slider{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.img-slider button{
+    position: absolute;
+}
+
+.next{
+    right: 0;
+    width: 20px;
+    height: 100%;
+}
+.last{
+    left: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.img-slider img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.section-2{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 h1{
+    font-family: 'Champagne-Limousines Bold';
+    color: var(--color1);
+    font-size: 36px;
+}
+
+.section-2 h3{
+    font-family: 'Champagne-Limousines Italic';
+    color: var(--color2);
+    font-size: 30px;
+}
+
+.section-2 blockquote {
+    font-family: 'Champagne-Limousines Italic';
+    font-size: 30px;
+    text-align: left;
+}
+
+.section-2 .checkShacks{
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: var(--color2);
+    border: 2px solid transparent; 
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+.section-2 .checkShacks:hover{
+    cursor: pointer;
+    color: var(--color2);
+    background-color: transparent;
+    border: var(--color2) solid 2px;
+}
+
+.section-3{
+    max-width: 100%;
+}
+
+.section-3 img{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-4{
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.section-4 h1{
+    color: var(--color1);
+    font-size: 36px;
+}
+
+.section-4 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 320px;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img{
+    width: 300px;
+}
+
+.card figcaption p{
+    font-family: 'Champagne-Limousines Bold';
+    font-size: 26px;
+    color: var(--color2);
+}
+
+.section-5 h1{
+    color: var(--color2);
+    font-size: 36px;
+}
+

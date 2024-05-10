@@ -1,0 +1,51 @@
+/*Header*/
+
+header {
+    width: 100%;
+    background-color: var(--secundario);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    width: 50%;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    display: none;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    position: static;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--secundario);
+}
+
+footer img{
+    width: 300px;
+}
