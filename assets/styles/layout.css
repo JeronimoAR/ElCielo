@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    background-color: var(--secundario);
+    background-color: var(--secundario-trans);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,9 +43,52 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--secundario);
+    background-color: var(--secundario-trans);
+    font-size: 30px;
 }
 
 footer img{
     width: 300px;
+}
+
+@media (max-width: 425px) {
+    header {
+        font-size: 25px;
+    }
+    header img {
+        width: 180px;
+    }
+    .nav-btns {
+        background-color: var(--secundario-trans);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        left: 200%;
+        top: 71px;
+        width: 160px;
+        height: 85%;
+        font-size: 15px;
+        transition: .5s ease-in-out;
+    }
+
+    .nav-btns a {
+        width: 50%;
+        text-align: center;
+        border-bottom: 2px solid var(--fonts);
+    }
+
+    .checkbtn {
+        display: flex;
+        position: absolute;
+        right: 60px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+    footer img{
+        width: 180px;
+    }
 }

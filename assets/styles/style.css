@@ -2,6 +2,7 @@
     --color1: #C26C47;
     --color2: #81a94c;
     --secundario: #C48F45;
+    --secundario-trans: #c48f4596;
     --fonts:  #544D4B;
 }
 
@@ -41,7 +42,7 @@ a{
 }
 
 body{
-    padding-top: 70px;
+    padding-top: 75px;
     z-index: 0;
 }
 
@@ -88,6 +89,7 @@ button i{
     width: 100%;
     height: 600px;
     object-fit: cover;
+    transition: 1s ease;
 }
 
 .section-2{
@@ -183,3 +185,84 @@ button i{
     font-size: 36px;
 }
 
+@media (max-width: 768px) {
+    section{
+        min-height: 400px;
+    }
+    
+    .section-1{
+        justify-content: start;
+    }
+    .img-slider img{
+        height: 480px;
+        object-fit: cover;
+    }
+
+    .section-2 h1{
+        font-size: 29px;
+    }
+    
+    .section-2 h3{
+        font-size: 23px;
+    }
+    
+    .section-2 blockquote {
+        font-size: 23px;
+    }
+    
+    .section-2 .checkShacks{
+        font-size: 17px;
+    }
+
+    .section-4{
+        justify-content: space-around;
+        min-height: 600px;
+    }
+
+    .section-4 h1{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    body{
+        padding-top: 71px;
+    }
+
+    .section-2 h1{
+        font-size: 24px;
+    }
+    
+    .section-2 h3{
+        font-size: 18px;
+    }
+    
+    .section-2 blockquote {
+        font-size: 18px;
+    }
+    
+    .section-2 .checkShacks{
+        font-size: 15px;
+    }
+
+    .section-4{
+        justify-content: space-around;
+        min-height: 800px;
+        margin-top: 40px;
+    }
+    .section-4 h1{
+        font-size: 18px;
+    }
+
+    .card{
+        padding: 0;
+    }
+
+    .section-4 figcaption p{
+        font-size: 18px;
+    }
+
+    .section-5 h1{
+        font-size: 22px;
+    }
+}
