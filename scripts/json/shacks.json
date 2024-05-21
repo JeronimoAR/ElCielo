@@ -1,0 +1,31 @@
+{
+    "shacks":[
+        {
+            "id":"001",
+            "title":"Cabaña 1",
+            "description":"Descripcion de cabaña",
+            "price": 100,
+            "stock": 0,
+            "img": "https://i.postimg.cc/CxBtzcJ4/shack.jpg",
+            "onsale": true
+        },
+        {
+            "id":"002",
+            "title":"Cabaña 2",
+            "description":"Descripcion de cabaña",
+            "price": 100,
+            "stock": 0,
+            "img": "https://i.postimg.cc/CxBtzcJ4/shack.jpg",
+            "onsale": true
+        },
+        {
+            "id":"002",
+            "title":"Cabaña 3",
+            "description":"Descripcion de cabaña",
+            "price": 100,
+            "stock": 0,
+            "img": "https://i.postimg.cc/CxBtzcJ4/shack.jpg",
+            "onsale": true
+        }
+    ]
+}
