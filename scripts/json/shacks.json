@@ -4,7 +4,7 @@
             "id":"001",
             "title":"Cabaña 1",
             "description":"Descripcion de cabaña",
-            "price": 100,
+            "price": 120,
             "stock": 0,
             "img": "https://i.postimg.cc/CxBtzcJ4/shack.jpg",
             "onsale": true
@@ -19,10 +19,10 @@
             "onsale": true
         },
         {
-            "id":"002",
+            "id":"003",
             "title":"Cabaña 3",
             "description":"Descripcion de cabaña",
-            "price": 100,
+            "price": 200,
             "stock": 0,
             "img": "https://i.postimg.cc/CxBtzcJ4/shack.jpg",
             "onsale": true
