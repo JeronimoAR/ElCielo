@@ -1,6 +1,6 @@
 function createShackCard(shack) {
     return `
-    <a href="./shacks.html?id=${shack.id}" target="_blank">
+    <a href="./shacks.html?id=${shack.id}">
         <figure class="card">
             <img src="${shack.img}" alt="${shack.id}">
             <figcaption>
